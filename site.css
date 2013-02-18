@@ -16,8 +16,14 @@ body {
 
 .wrapper {
   background-color: #ebebeb;
-  margin: 20px;
-  padding: 20px;
+  margin: 1%;
+  padding: 1%;
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    margin: 2%;
+    padding: 2%;
+  }
 }
 
 h1 {
@@ -81,11 +87,6 @@ p.intro {
   font-weight: bold;
   margin-bottom: 30px;
 }
-
-.bio p {
-  line-height: 21px;
-}
-
 .bio .contact {
   margin-top: 30px;
 }
