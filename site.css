@@ -97,8 +97,10 @@ p.intro {
 }
 .bio .contact a {
   color: #D9241A;
-  float: right;
   text-decoration: none;
+}
+.bio .contact a.email {
+  float: right;
 }
 .bio .contact a:hover {
   color: #9F1911;
