@@ -63,6 +63,15 @@ p.intro {
   width: 32%;
   margin-right: 2%;
 }
+@media only screen and (max-width: 768px) {
+  .bio {
+    float: none;
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding-top: 15px;
+    border-top: #ddd 1px solid;
+  }
+}
 .bio:last-of-type {
   margin-right: 0;
 }
