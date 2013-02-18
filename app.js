@@ -12,7 +12,9 @@
     $('.bio h3').adjustFontSize({
       lineHeightMultiplier: 1.2
     });
-  }
+
+    $('.bio').normalizeHeights();
+  };
 
   $.FontSizeAdjuster = function(el, options){
     var base = this;
@@ -53,6 +55,16 @@
     return this.each(function(){
       (new $.FontSizeAdjuster(this, options));
     });
+  };
+
+  $.fn.normalizeHeights = function() {
+    var maxHeight = 0;
+    this.each(function() {
+      var h = $(this).height();
+      maxHeight = h > maxHeight ? h : maxHeight
+    });
+
+    $(this).height(maxHeight);
   };
 
 })(jQuery);
