@@ -75,7 +75,11 @@
     var margin = Math.floor((wrapperWidth - totalWidth) / ($items.length - 1)) - 1;
     $items.each(function() {
       if (!$(this).hasClass($items.last().attr('class'))) {
-        $(this).css('marginRight', margin + 'px');
+        if (margin > 10) {
+          $(this).css('marginRight', margin + 'px');
+        } else {
+          $(this).css('marginRight', '10px');
+        }
       }
     });
   };

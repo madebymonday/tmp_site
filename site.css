@@ -149,3 +149,10 @@ p.intro {
 #brands li.espn { background-position: -900px 0; width: 125px; }
 #brands li.fedex { background-position: -1050px 0; width: 92px; }
 #brands li.usoc { background-position: -1200px 0; width: 54px; }
+
+@media only screen and (max-width: 900px) {
+  #brands li {
+    width: 125px !important;
+    margin-bottom: 2em;
+  }
+}
