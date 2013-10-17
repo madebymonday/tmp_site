@@ -118,38 +118,6 @@ p.intro {
   color: #9F1911;
 }
 
-#brands {
-  clear: both;
-  overflow: hidden;
-  margin-top: 70px;
-}
-#brands h3 {
-  color: #bbb;
-  font-weight: bold;
-  margin-bottom: 1.6em;
-}
-#brands li {
-  float: left;
-  background: url(brands.png) no-repeat left top;
-  height: 52px;
-  width: 110px;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  margin-right: 10px;
-}
-#brands li:last-of-type {
-  margin-right: 0;
-}
-#brands li.tnf { background-position: -150px 0; width: 108px; }
-#brands li.adobe { background-position: -300px 0; width: 44px; }
-#brands li.audi { background-position: -450px 0; width: 80px; }
-#brands li.oakley { background-position: -600px 0; width: 125px; }
-#brands li.outdoor { background-position: -750px 0; width: 67px; }
-#brands li.espn { background-position: -900px 0; width: 125px; }
-#brands li.fedex { background-position: -1050px 0; width: 92px; }
-#brands li.usoc { background-position: -1200px 0; width: 54px; }
-
 @media only screen and (max-width: 900px) {
   #brands li {
     width: 125px !important;
